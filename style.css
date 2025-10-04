@@ -3,12 +3,9 @@
     border: 5px double rgb(154, 255, 117)
 }
 body{
-    background-color: rgb(210, 147, 255);
-    border: 5px double white;
-}
-*{
-    height: 200px;
-}
+    background-color: #d293ff;
+    border: 5px double white;  
+} 
 /* 
 under this is related to the flex
 */
@@ -36,10 +33,10 @@ li{
 .contents_right{
     
 }
-.content_right_img{
+/* .content_right_img{
     background-color: red;width: 330px;
     height: 220px;
-}
+} */
 
 .info{
     justify-content: center;
@@ -49,9 +46,7 @@ li{
 }
 
 .infoitems{
-    border: 1px solid white;
-    width: 100px;
-    height: 100px;
+    border: 1px solid white; 
 }
 
 .quote_box{
