@@ -1,0 +1,72 @@
+.debugger{
+    background-color: rgba(255, 255, 0, 0.455);
+    border: 5px double rgb(154, 255, 117)
+}
+body{
+    background-color: rgb(210, 147, 255);
+    border: 5px double white;
+}
+*{
+    height: 200px;
+}
+/* 
+under this is related to the flex
+*/
+
+.header{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    display: flex;
+    gap: 10px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.content_box {
+    display: flex;
+    justify-content: space-around;
+}
+.content_left{
+
+}
+.contents_right{
+    
+}
+.content_right_img{
+    background-color: red;width: 330px;
+    height: 220px;
+}
+
+.info{
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.infoitems{
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+}
+
+.quote_box{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cta_box{
+    display: flex;
+    justify-content: center;
+    background-color: blue;
+}
+
+ .footer{
+    display: flex;
+    justify-content: center;
+ }
