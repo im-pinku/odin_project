@@ -1,97 +1,130 @@
-.debugger{
-    background-color: rgba(255, 255, 0, 0.455);
-    border: 5px double rgb(154, 255, 117)
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
+
+.main_box{
+    border: 2px double black;
+    background-color: rgba(170, 0, 255, 0.063);
+}
+
+/* body  */
 body{
-    background-color: #d293ff;
-    border: 5px double white;  
-} 
-/* 
-under this is related to the flex
-*/
-
-.header{
-    display: flex;
-    justify-content: space-evenly;
-}
-ul{
-    display: flex;
-    gap: 10px;
-}
-
-li{
-    list-style-type: none;
-}
-
-.content_box {
-    display: flex;
-    justify-content: space-around;
-}
-.content_left{
-
-}
-.contents_right{
     
 }
-/* .content_right_img{
-    background-color: red;width: 330px;
-    height: 220px;
-} */
-
-.info{
-    justify-content: center;
-    gap: 10px;
-    display: flex;
-    flex-wrap: wrap;
+.navigator{
+    font-size: 24px;
 }
 
-.infoitems{
-    border: 1px solid white; 
-}
-
-.quote_box{
-    display: flex;
-    justify-content: center;
-    
-}
-
-.cta_box{
-    display: flex;
-    justify-content: center;
-    background-color: blue;
-}
-
- .footer{
-    display: flex;
-    justify-content: center;
- }
-
-
- .testsubject{
-    border: 3px solid black;
-    width: 500px;
- }
-
- .labrat{
-    border: 3px solid red;
- }
-
- .labrat_span{
-    border: 3px solid green;
- }
-a{
-    border: 3px solid green;
-    
-}
- .labrat_span_s1{
- }
-
- .lab1{
+/*  */
+.hero{
+    padding: 0px 200px;
+    background-color: #1F2937;
+    color: #F9FAF8;
     display: flex;
     flex-direction: column;
+    gap: 100px;
+}
+
+.navigator{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.main_display{
+    display: flex;
+    margin-bottom:40px ;
+}
+.left .displayleft_Primary{
+    font-size: 48px; 
+}
+.left .displayleft_Secondary{
+    font-size: 18px;
+    font-color: #E5E7EB;
+}
+button{
+    background-color: #3882f6;
+    border-radius: 20%;
+    font-size: 30px;
+}
+
+.information_header{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    text-align: center;
+    margin: 40px auto;
+}
+.information_item{
+    display: flex;
+    justify-content: center;  
+    gap: 100px;
+}
+.information_item p{
+    font-size: 1.2em;
+}
+.infobox{
+    width: 200px;
+    text-align: center;
+}
+.information_item_list img{
+    background-color: red;
+    width: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10%;
+}
+ 
+.cta_left .ctaleft_title{
+    font-weight: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+ .cta_box{
+    margin:  auto 200px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around; 
+    padding: 20px;
+
  }
 
- .lab1rat{
-    height: 100px;
-    border: 1px solid black;
+ .main{
+    margin-bottom: 100px;
  }
+ .cta_left{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+ }
+ .cta_right{
+    padding: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+ }
+ .cta_right button{
+    font-size: 20px;
+    padding: 10px;
+    width: 200px; border-radius: 10px;
+    border: 2px solid white;
+ } 
+ .footer{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    font-size: 2em;
+ }
+
+/* 
+#F9FAF8 
+48px
+
+36 900
+1f2937
+*/
